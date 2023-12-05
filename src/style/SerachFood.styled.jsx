@@ -9,7 +9,7 @@ export const StyledSerachFood = styled.div`
     letter-spacing: 2px;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 3rem;
+      font-size: 2.7rem;
     }
   }
 

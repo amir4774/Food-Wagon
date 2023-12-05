@@ -6,7 +6,7 @@ const FoodCard = ({ food }) => {
       <img src={food.strMealThumb} />
       <h4>{food.strMeal}</h4>
       <div className="remaining">
-        <h5>{food.idMeal % 10} Remaining</h5>
+        <h5>{food.idMeal % 10} Days Remaining</h5>
       </div>
     </StyledFoodCard>
   );
