@@ -12,4 +12,8 @@ export const Button = styled.button`
     &:hover {
       transform: scale(1.05);
     }
+
+    &:active {
+      opacity: 0.8;
+    }
 `

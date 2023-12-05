@@ -4,7 +4,7 @@ export const StyledNavbar = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
+  margin: 10px 0;
 `;
 
 export const StyledLogo = styled.div`
@@ -53,10 +53,10 @@ export const Login = styled.div`
   .login-btn {
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 15px;
+    padding: 13px;
     color: ${({ theme }) => theme.colors.login_text};
     background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px ${({ theme }) => theme.colors.login_text};
 
     img {
       margin-right: 8px;
