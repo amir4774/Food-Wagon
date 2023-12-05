@@ -10,7 +10,7 @@ export const Content = styled.div`
     align-items: center;
 
     .showcase_image {
-        width: 700px;
+        width: 600px;
         margin-bottom: -4px;
 
         @media (max-width: ${({ theme }) => theme.mobile}) {

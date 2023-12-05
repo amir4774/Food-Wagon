@@ -1,14 +1,8 @@
+import Form from "../components/Form";
 import { Button } from "../style/Button";
-import {
-  StyledSerachFood,
-  Form,
-  Input,
-  Marker,
-} from "../style/SerachFood.styled";
+import { StyledSerachFood } from "../style/SerachFood.styled";
 import delivery_icon from "../assets/icon.png";
 import pickup_icon from "../assets/pickup.png";
-import search_icon from "../assets/search_food.png";
-import marker from "../assets/marker.png";
 
 const SearchFood = () => {
   return (
@@ -28,13 +22,7 @@ const SearchFood = () => {
           </Button>
         </div>
 
-        <Form>
-          <Marker src={marker} alt="" />
-          <Input type="text" placeholder="Enter Your Address" />
-          <Button type="submit" className="submit-btn">
-            <img src={search_icon} alt="" /> Find Food
-          </Button>
-        </Form>
+        <Form />
       </div>
     </StyledSerachFood>
   );

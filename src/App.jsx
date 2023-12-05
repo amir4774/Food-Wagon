@@ -1,3 +1,7 @@
+import { lazy, Suspense } from "react";
+const ShowSearchedFood = lazy(() => import("./components/ShowSearchedFood"));
+
+
 import { ThemeProvider } from "styled-components";
 import Navbar from "./components/Navbar";
 import ShowCase from "./components/ShowCase";
@@ -21,6 +25,11 @@ const App = () => {
       <GlobalStyles />
       <Navbar />
       <ShowCase />
+      
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <ShowSearchedFood />
+      </Suspense>
+    
     </ThemeProvider>
   );
 };
