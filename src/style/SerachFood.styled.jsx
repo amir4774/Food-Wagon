@@ -15,6 +15,7 @@ export const StyledSerachFood = styled.div`
 
   .caption {
     margin: 30px 0 40px;
+    color: #444;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
       margin: 20px 0 30px;

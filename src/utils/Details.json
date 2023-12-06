@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "src": "./src/assets/detail_1.png",
+    "title": "Best deals",
+    "yellow_title": "Crispy Sandwiches",
+    "description": "Enjoy the large size of sandwiches. Complete perfect slice of sandwiches."
+  },
+  {
+    "id": 2,
+    "src": "./src/assets/detail_2.png",
+    "title": "Celebrate  parties with",
+    "yellow_title": "Fried Chicken",
+    "description": "Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken."
+  },
+  {
+    "id": 3,
+    "src": "./src/assets/detail_3.png",
+    "title": "Wanna eat hot & spicy",
+    "yellow_title": "Pizza?",
+    "description": "Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals."
+  }
+]

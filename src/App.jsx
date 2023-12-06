@@ -7,6 +7,7 @@ import HowWork from "./components/HowWork";
 import Popular from "./components/Popular";
 import GlobalStyles from "./style/Global";
 import Install from "./components/Install";
+import Details from "./components/Details";
 
 const theme = {
   colors: {
@@ -26,7 +27,10 @@ const theme = {
     features_card_shadow: "rgba(210, 150, 32, 0.5)",
     features_card_title_first: "rgba(251, 60, 0, 1)",
     features_card_title_second: "rgba(255, 184, 0, 1)",
-    install_app_title: "rgba(255, 184, 0, 1)"
+    install_app_title: "rgba(255, 184, 0, 1)",
+    detail_title: "#353535",
+    detail_yellow_title: "#FFB30E",
+    btn_detail: "rgba(255, 148, 0, 1)",
   },
   mobile: "768px",
 }
@@ -45,6 +49,7 @@ const App = () => {
       <HowWork />
       <Popular />
       <Install />
+      <Details />
 
     </ThemeProvider>
   );
