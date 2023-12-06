@@ -56,7 +56,7 @@ export const Login = styled.div`
     padding: 13px;
     color: ${({ theme }) => theme.colors.login_text};
     background: #fff;
-    box-shadow: 0 5px 20px ${({ theme }) => theme.colors.login_text};
+    box-shadow: 0 5px 20px ${({ theme }) => theme.colors.login_btn_shadow};
 
     img {
       margin-right: 8px;
