@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import AreaReduser from "./AreaSlice";
+import CountriesReduser from "./CountriesSlice";
 
 const Store = configureStore({
     reducer: {
-        area: AreaReduser
+        area: AreaReduser,
+        country: CountriesReduser,
     }
 })
 

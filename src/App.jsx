@@ -8,6 +8,7 @@ import Popular from "./components/Popular";
 import GlobalStyles from "./style/Global";
 import Install from "./components/Install";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 const CTA = lazy(() => import("./components/CTA"));
 
 const theme = {
@@ -32,6 +33,9 @@ const theme = {
     detail_title: "#353535",
     detail_yellow_title: "#FFB30E",
     btn_detail: "rgba(255, 148, 0, 1)",
+    footer_bg: "rgba(33, 33, 33, 1)",
+    footer_btn_first: "rgba(255, 184, 0, 1)",
+    footer_btn_second: "rgba(255, 138, 0, 1)",
   },
   mobile: "768px",
 };
@@ -52,6 +56,7 @@ const App = () => {
       <Install />
       <Details />
       <CTA />
+      <Footer />
     </ThemeProvider>
   );
 };

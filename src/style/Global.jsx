@@ -11,6 +11,19 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    li {
+        list-style: none;
+    }
 `;
 
 export default GlobalStyles;

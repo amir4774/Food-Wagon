@@ -37,7 +37,7 @@ const Popular = () => {
             {!foods ? (
               <h1>Loading...</h1>
             ) : !foods.meals ? null : (
-              foods.meals.slice(5, 15).map((food) => (
+              foods.meals.slice(4, 14).map((food) => (
                 <SwiperSlide className="slide" key={food.idMeal}>
                   <img src={food.strMealThumb} alt="" />
                   <p className="food-name">

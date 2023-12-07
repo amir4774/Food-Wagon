@@ -24,16 +24,12 @@ export const StyledForm = styled.form`
       padding: 10px 20px;
     }
   }
-`;
 
-export const Input = styled.input`
-  width: 68%;
-  background-color: #f5f5f5;
-  border: none;
-  outline: none;
-  padding: 10px;
-  padding-left: 30px;
-  border-radius: 10px;
+  .form-input {
+    width: 68%;
+    padding-left: 30px;
+    background-color: #f5f5f5;
+  }
 `;
 
 export const Marker = styled.img`

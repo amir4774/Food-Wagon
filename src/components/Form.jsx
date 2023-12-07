@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { changeArea } from "../services/AreaSlice";
-import { StyledForm, Marker, Input } from "../style/Form.styled";
 import { Button } from "../style/Button";
+import { Input } from "../style/Input";
+import { StyledForm, Marker } from "../style/Form.styled";
 import search_icon from "../assets/search_food.png";
 import marker from "../assets/marker.png";
 
@@ -23,6 +24,7 @@ const Form = () => {
     <StyledForm onSubmit={handleSubmit}>
       <Marker src={marker} alt="" />
       <Input
+        className="form-input"
         type="text"
         placeholder="Enter Your Country Like: Canadian"
         value={value}
