@@ -1,10 +1,11 @@
 import { FaChevronRight } from "react-icons/fa";
 import { Button } from "../style/Button";
 import { StyledCTA, Content } from "../style/CTA.styled";
+import a from "../assets/CTA.png";
 
 const CTA = () => {
   return (
-    <StyledCTA>
+    <StyledCTA style={{ backgroundImage: `url(${a})` }}>
       <Content>
         <h1 className="cta-title">
           Are you ready to order with the best deals?
