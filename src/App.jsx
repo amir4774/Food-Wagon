@@ -47,9 +47,9 @@ const App = () => {
       <Navbar />
       <ShowCase />
 
-      {/* <Suspense fallback={<h2>Loading...</h2>}>
+      <Suspense fallback={<h2>Loading...</h2>}>
         <ShowSearchedFood />
-      </Suspense> */}
+      </Suspense>
 
       <HowWork />
       <Popular />
