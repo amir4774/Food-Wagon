@@ -1,7 +1,7 @@
 import Form from "../components/Form";
 import { Button } from "../style/Button";
 import { StyledSerachFood } from "../style/SerachFood.styled";
-import delivery_icon from "../assets/icon.png";
+import delivery_icon from "../assets/delivery.png";
 import pickup_icon from "../assets/pickup.png";
 
 const SearchFood = () => {
