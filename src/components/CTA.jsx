@@ -4,7 +4,7 @@ import { StyledCTA, Content } from "../style/CTA.styled";
 
 const CTA = () => {
   return (
-    <StyledCTA>
+    <StyledCTA style={{ backgroundImage: 'url(src/assets/CTA.png)' }}>
       <Content>
         <h1 className="cta-title">
           Are you ready to order with the best deals?
