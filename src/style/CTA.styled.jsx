@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledCTA = styled.section`
   height: 300px;
-  background-image: url("src/assets/CTA.png");
+  background-image: url("/CTA/CTA.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
