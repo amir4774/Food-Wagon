@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledDetailCard = styled.div`
-  height: 350px;
+  min-height: 350px;
   margin-bottom: 70px;
   display: flex;
   flex-direction: ${({ id }) => (id % 2 == 0 ? "row" : "row-reverse")};
@@ -11,12 +11,11 @@ export const StyledDetailCard = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
-    height: 400px;
   }
 `;
 
 export const DetailImage = styled.div`
-  height: 100%;
+  max-height: 350px;
 
   img {
     width: 800px;
@@ -46,13 +45,17 @@ export const Text = styled.div`
     padding: 0;
     padding-top: 20px;
   }
-  
+
   .btn-detail {
     width: 100%;
     padding: 10px 0;
     background-color: ${({ theme }) => theme.colors.btn_detail};
     box-shadow: 0 0 10px ${({ theme }) => theme.colors.btn_detail};
     color: #fff;
+
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      margin-bottom: 20px;
+    }
 
     .chevron-right {
       margin-left: 5px;

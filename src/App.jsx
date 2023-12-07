@@ -8,6 +8,7 @@ import Popular from "./components/Popular";
 import GlobalStyles from "./style/Global";
 import Install from "./components/Install";
 import Details from "./components/Details";
+const CTA = lazy(() => import("./components/CTA"));
 
 const theme = {
   colors: {
@@ -33,7 +34,7 @@ const theme = {
     btn_detail: "rgba(255, 148, 0, 1)",
   },
   mobile: "768px",
-}
+};
 
 const App = () => {
   return (
@@ -50,7 +51,7 @@ const App = () => {
       <Popular />
       <Install />
       <Details />
-
+      <CTA />
     </ThemeProvider>
   );
 };

@@ -26,7 +26,7 @@ const Phone = () => {
                 </div>
 
                 <div>
-                  <p className="first-text">GET IT ON</p>{" "}
+                  <p className="first-text">Get it on</p>{" "}
                   <p className="second-text">Google Play</p>
                 </div>
               </Button>

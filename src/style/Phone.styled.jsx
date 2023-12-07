@@ -93,6 +93,7 @@ export const AppButtons = styled.div`
     .first-text {
       color: #666;
       font-size: 0.7rem;
+      text-transform: uppercase;
     }
 
     .second-text {
