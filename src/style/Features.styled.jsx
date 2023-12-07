@@ -18,14 +18,14 @@ export const Cards = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 400px;
+  max-width: 1000px;
   min-height: 200px;
   background-color: #fff;
   box-shadow: 0 0 20px ${({ theme }) => theme.colors.features_card_shadow};
   border-radius: 30px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 300px;
+    width: 380px;
     margin: 0 auto;
   }
 
@@ -56,7 +56,8 @@ export const Cards = styled.div`
       
       @media (max-width: ${({ theme }) => theme.mobile}) {
         font-size: 1.2rem;
-        margin-left: 0;
+        /* margin-left: 0; */
+        
       }
     }
 

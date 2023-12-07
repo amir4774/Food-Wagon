@@ -14,34 +14,38 @@ export const StyledHowWork = styled.section`
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
       width: 90%;
-      padding: 40px 10px;
+      padding: 40px auto;
     }
 
     .main-title {
-        margin-bottom: 20px;
-        font-size: 2rem;
-        text-align: center;
-        color: ${({ theme }) => theme.colors.how_work_title};
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+      color: ${({ theme }) => theme.colors.how_work_title};
     }
 
     .icons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0 30px;
-        text-align: center;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0 30px;
+      text-align: center;
 
-        .how-title {
-            margin-top: -20px;
-        }
+      .how-title {
+        margin-top: -20px;
+      }
 
-        .how-caption {
-            margin-top: 10px;
-            color: #bbb;
-        }
+      .how-caption {
+        margin-top: 10px;
+        color: #bbb;
 
         @media (max-width: ${({ theme }) => theme.mobile}) {
-            grid-template-columns: repeat(2, 1fr);
+          font-size: 0.8rem;
         }
+      }
+
+      @media (max-width: ${({ theme }) => theme.mobile}) {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
 `;

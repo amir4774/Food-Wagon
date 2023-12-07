@@ -10,8 +10,8 @@ export const StyledFoodCard = styled.div`
     border-radius: 15px;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      width: 150px;
-      height: 150px;
+      width: 170px;
+      height: 170px;
     }
   }
 

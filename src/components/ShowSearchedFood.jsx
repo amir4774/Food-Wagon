@@ -1,7 +1,7 @@
 import { useArea } from "../utils/useArea";
 import FoodCard from "./FoodCard";
-import { StyledShowSearchedFood, Cards } from "../style/ShowSearchedFood.style";
 import { Container } from "../style/Container";
+import { StyledShowSearchedFood, Cards } from "../style/ShowSearchedFood.style";
 
 const ShowSearchedFood = () => {
   const foods = useArea();
