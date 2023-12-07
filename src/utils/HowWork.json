@@ -1,26 +1,22 @@
 [
-    {
-        "id": 0,
-        "src": "./src/assets/Map_Marker.png",
-        "title": "Select location",
-        "caption": "Choose the location where your food will be delivered."
-    },
-    {
-        "id": 1,
-        "src": "./src/assets/order.png",
-        "title": "Choose order",
-        "caption": "Check over hundreds of menus to pick your favorite food"
-    },
-    {
-        "id": 2,
-        "src": "./src/assets/pay.png",
-        "title": "Pay advanced",
-        "caption": "It's quick, safe, and simple. Select several methods of payment"
-    },
-    {
-        "id": 3,
-        "src": "./src/assets/enjoy.png",
-        "title": "Enjoy meals",
-        "caption": "Food is made and delivered directly to your home."
-    }
+  {
+    "id": 0,
+    "title": "Select location",
+    "caption": "Choose the location where your food will be delivered."
+  },
+  {
+    "id": 1,
+    "title": "Choose order",
+    "caption": "Check over hundreds of menus to pick your favorite food"
+  },
+  {
+    "id": 2,
+    "title": "Pay advanced",
+    "caption": "It's quick, safe, and simple. Select several methods of payment"
+  },
+  {
+    "id": 3,
+    "title": "Enjoy meals",
+    "caption": "Food is made and delivered directly to your home."
+  }
 ]
