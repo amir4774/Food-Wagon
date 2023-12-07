@@ -24,6 +24,11 @@ export const Cards = styled.div`
   box-shadow: 0 0 20px ${({ theme }) => theme.colors.features_card_shadow};
   border-radius: 30px;
 
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 300px;
+    margin: 0 auto;
+  }
+
   .card {
     display: flex;
     justify-content: center;
@@ -50,7 +55,7 @@ export const Cards = styled.div`
       color: transparent;
       
       @media (max-width: ${({ theme }) => theme.mobile}) {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-left: 0;
       }
     }

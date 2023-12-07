@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledFoodCard = styled.div`
+  width: 100%;
+  
   img {
     margin-bottom: 10px;
     width: 250px;
@@ -8,8 +10,8 @@ export const StyledFoodCard = styled.div`
     border-radius: 15px;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
     }
   }
 

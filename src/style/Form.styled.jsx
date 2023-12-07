@@ -8,6 +8,7 @@ export const StyledForm = styled.form`
   align-items: center;
 
   .submit-btn {
+    width: 30%;
     padding: 15px 35px;
     background-image: linear-gradient(
       to right,
@@ -21,7 +22,7 @@ export const StyledForm = styled.form`
     }
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      padding: 10px 20px;
+      padding: 10px;
     }
   }
 

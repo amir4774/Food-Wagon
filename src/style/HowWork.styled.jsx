@@ -14,6 +14,7 @@ export const StyledHowWork = styled.section`
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
       width: 90%;
+      padding: 40px 10px;
     }
 
     .main-title {

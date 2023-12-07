@@ -3,13 +3,17 @@ import styled from "styled-components";
 export const StyledSerachFood = styled.div`
   margin: 10px 0;
 
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 100%;
+  }
+
   .show-case-title {
     color: #fff;
     font-size: 4rem;
     letter-spacing: 2px;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 2.7rem;
+      font-size: 2.4rem;
     }
   }
 
@@ -19,6 +23,7 @@ export const StyledSerachFood = styled.div`
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
       margin: 20px 0 30px;
+      font-size: 0.9rem;
     }
   }
 
