@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledPhone = styled.section`
   margin-bottom: 100px;
   background-color: rgba(255, 138, 0, 1);
-  background-image: url("src/assets/background_phone.png");
   background-size: 100% 300px;
   background-repeat: no-repeat;
   height: 400px;

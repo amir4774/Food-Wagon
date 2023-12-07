@@ -1,12 +1,13 @@
 import { StyledPhone, Flex, App, AppButtons } from "../style/Phone.styled";
 import { Button } from "../style/Button";
+import background_phone from "../assets/background_phone.png";
 import phone from "../assets/phone.png";
 import google from "../assets/Google Play logo.png";
 import apple from "../assets/Apple logo.png";
 
 const Phone = () => {
   return (
-    <StyledPhone>
+    <StyledPhone style={{ backgroundImage: `url(${background_phone})` }}>
       <div className="container">
         <Flex>
           <div className="phone-image">
