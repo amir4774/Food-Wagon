@@ -7,6 +7,10 @@ export const StyledForm = styled.form`
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    display: block;
+  }
+
   .submit-btn {
     width: 30%;
     padding: 15px 35px;
@@ -23,6 +27,7 @@ export const StyledForm = styled.form`
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
       padding: 10px;
+      width: 100%;
     }
   }
 
@@ -30,6 +35,11 @@ export const StyledForm = styled.form`
     width: 68%;
     padding-left: 30px;
     background-color: #f5f5f5;
+
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
   }
 `;
 
@@ -37,4 +47,8 @@ export const Marker = styled.img`
   position: absolute;
   left: 7px;
   width: 15px;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin-top: 5px;
+  }
 `;

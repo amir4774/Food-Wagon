@@ -5,12 +5,12 @@ import {
   Location,
   Login,
 } from "../style/Navbar.styled";
+import { Button } from "../style/Button";
 import Logo from "../assets/Logo.png";
 import MaskGroup from "../assets/Mask Group.png";
 import map from "../assets/map-marker-alt.png";
 import search from "../assets/Search.png";
 import user from "../assets/user.png";
-import { Button } from "../style/Button";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <Location>
           <p>
-            <b>Deliver to:</b> <img id="map" src={map} alt="" />
+            <span><b>Deliver to:</b></span> <img id="map" src={map} alt="" />
             <span>Current Location</span> <b>Mohammadpur Bus Stand, Dhaka</b>
           </p>
         </Location>

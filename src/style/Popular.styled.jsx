@@ -45,6 +45,11 @@ export const Slides = styled.div`
       width: 200px;
       height: 200px;
       border-radius: 15px;
+
+      @media (max-width: ${({ theme }) => theme.mobile}) {
+        width: 150px;
+        height: 150px;
+      }
     }
 
     .food-name {
@@ -68,6 +73,10 @@ export const Slides = styled.div`
       color: #fff;
       padding: 10px 0;
       width: 200px;
+
+      @media (max-width: ${({ theme }) => theme.mobile}) {
+        width: 150px;
+      }
     }
   }
 `;

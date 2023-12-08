@@ -13,7 +13,7 @@ export const StyledHowWork = styled.section`
     padding: 40px 0;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-      width: 90%;
+      width: 95%;
       padding: 40px auto;
     }
 
@@ -23,29 +23,29 @@ export const StyledHowWork = styled.section`
       text-align: center;
       color: ${({ theme }) => theme.colors.how_work_title};
     }
+  }
+`;
 
-    .icons {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 0 30px;
-      text-align: center;
+export const Icons = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 30px;
+  text-align: center;
 
-      .how-title {
-        margin-top: -20px;
-      }
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-      .how-caption {
-        margin-top: 10px;
-        color: #bbb;
+  .how-title {
+    margin-top: -20px;
+  }
 
-        @media (max-width: ${({ theme }) => theme.mobile}) {
-          font-size: 0.8rem;
-        }
-      }
+  .how-caption {
+    margin-top: 10px;
+    color: #bbb;
 
-      @media (max-width: ${({ theme }) => theme.mobile}) {
-        grid-template-columns: repeat(2, 1fr);
-      }
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      font-size: 0.8rem;
     }
   }
 `;

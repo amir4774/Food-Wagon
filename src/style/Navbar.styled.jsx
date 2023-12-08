@@ -29,8 +29,13 @@ export const Location = styled.div`
       display: none;
     }
 
+    #map {
+      width: 10px;
+      margin: 0;
+    }
+
     p {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   }
 `;
@@ -48,6 +53,10 @@ export const Login = styled.div`
       justify-content: center;
       align-items: center;
     }
+
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      display: none;
+    }
   }
 
   .login-btn {
@@ -60,6 +69,11 @@ export const Login = styled.div`
 
     img {
       margin-right: 8px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      font-size: 0.8rem;
+      padding: 10px;
     }
   }
 `;

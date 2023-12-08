@@ -1,5 +1,5 @@
-import { StyledHowWork } from "../style/HowWork.styled";
 import HowWorkData from "../utils/HowWork";
+import { StyledHowWork, Icons } from "../style/HowWork.styled";
 import Map_Marker from "../assets/Map_Marker.png";
 import order from "../assets/order.png";
 import pay from "../assets/pay.png";
@@ -14,7 +14,7 @@ const HowWork = () => {
       <div className="container">
         <h1 className="main-title">How does it work</h1>
 
-        <div className="icons">
+        <Icons>
           {HowWorkData.map((item) => (
             <div key={item.id}>
               <img src={images[item.id]} alt="" />
@@ -22,7 +22,7 @@ const HowWork = () => {
               <p className="how-caption">{item.caption}</p>
             </div>
           ))}
-        </div>
+        </Icons>
       </div>
     </StyledHowWork>
   );
