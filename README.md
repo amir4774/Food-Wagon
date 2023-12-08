@@ -5,7 +5,7 @@ This is a food introduction site where the user can see the foods related to his
 ## Project Overview
 This is a React project bootstrapped with [Vite](https://vitejs.dev/).
 
-The libraries used are: Axios, Redux, React-Icons, Swiper.js and Styled-Components for styling.
+The libraries used are **Axios** (facilitates seamless communication with external APIs), **Redux** (manages the application's state), **React-Icons** (provides a diverse set of customizable icons), **Swiper.js** (enables the implementation of responsive and touch-friendly sliders or carousels), and **Styled-Components** (for styling).
 
 ## Getting Started
 
