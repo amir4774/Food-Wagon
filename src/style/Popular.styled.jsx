@@ -41,32 +41,6 @@ export const Slides = styled.div`
   }
 
   .slide {
-    img {
-      width: 200px;
-      height: 200px;
-      border-radius: 15px;
-
-      @media (max-width: ${({ theme }) => theme.mobile}) {
-        width: 150px;
-        height: 150px;
-      }
-    }
-
-    .food-name {
-      font-size: 0.9rem;
-      font-weight: bold;
-      margin-top: 10px;
-
-      @media (max-width: ${({ theme }) => theme.mobile}) {
-        font-size: 0.8rem;
-      }
-    }
-
-    .price {
-      font-weight: bold;
-      margin: 10px 0;
-    }
-
     .btn-order {
       margin-bottom: 3px;
       background-color: ${({ theme }) => theme.colors.popular_btn_order};

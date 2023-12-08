@@ -25,19 +25,6 @@ export const Content = styled.div`
     width: 300px;
   }
 
-  .cta-title {
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-
-    @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 1.5rem;
-      margin-bottom: 30px;
-    }
-  }
-
   .cta-btn {
     background-color: ${({ theme }) => theme.colors.popular_btn_order};
     color: #fff;
@@ -54,5 +41,18 @@ export const Content = styled.div`
     .chevron-right {
       margin-left: 5px;
     }
+  }
+`;
+
+export const CTATitle = styled.h1`
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
   }
 `;

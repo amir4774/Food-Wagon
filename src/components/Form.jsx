@@ -26,7 +26,7 @@ const Form = () => {
       <Input
         className="form-input"
         type="text"
-        placeholder="Enter Your Country Like: Canadian"
+        placeholder="Enter Your Nationality (like: Canadian)"
         value={value}
         onChange={(e) => setValue(e.currentTarget.value)}
       />

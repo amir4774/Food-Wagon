@@ -1,9 +1,10 @@
 import { Container } from "../style/Container";
 import {
   StyledNavbar,
-  StyledLogo,
+  NavLogo,
   Location,
   Login,
+  Search,
 } from "../style/Navbar.styled";
 import { Button } from "../style/Button";
 import Logo from "../assets/Logo.png";
@@ -16,10 +17,10 @@ const Navbar = () => {
   return (
     <Container>
       <StyledNavbar>
-        <StyledLogo>
+        <div>
           <img src={MaskGroup} />
-          <img id="logo-text" src={Logo} alt="foodwagon" />
-        </StyledLogo>
+          <NavLogo id="logo-text" src={Logo} alt="foodwagon" />
+        </div>
 
         <Location>
           <p>
@@ -29,11 +30,11 @@ const Navbar = () => {
         </Location>
 
         <Login>
-          <div className="search">
+          <Search className="search">
             <p>
               <img src={search} /> <b>Search Food</b>
             </p>
-          </div>
+          </Search>
 
           <div>
             <Button className="login-btn">

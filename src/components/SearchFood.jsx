@@ -1,18 +1,23 @@
 import Form from "../components/Form";
 import { Button } from "../style/Button";
-import { StyledSerachFood } from "../style/SerachFood.styled";
+import {
+  StyledSearchFood,
+  SearchFoodTitle,
+  SearchFoodCaption,
+  SearchFoodCard,
+} from "../style/SearchFood.styled";
 import delivery_icon from "../assets/delivery.png";
 import pickup_icon from "../assets/pickup.png";
 
 const SearchFood = () => {
   return (
-    <StyledSerachFood>
-      <h1 className="show-case-title">Are you starving?</h1>
-      <p className="caption">
+    <StyledSearchFood>
+      <SearchFoodTitle>Are you starving?</SearchFoodTitle>
+      <SearchFoodCaption>
         Within a few clicks, find meals that are accessible near you
-      </p>
+      </SearchFoodCaption>
 
-      <div className="card">
+      <SearchFoodCard>
         <div className="buttons">
           <Button className="delivery-button">
             <img src={delivery_icon} alt="" /> Delivery
@@ -23,8 +28,8 @@ const SearchFood = () => {
         </div>
 
         <Form />
-      </div>
-    </StyledSerachFood>
+      </SearchFoodCard>
+    </StyledSearchFood>
   );
 };
 

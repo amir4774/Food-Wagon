@@ -7,15 +7,11 @@ export const StyledNavbar = styled.nav`
   margin: 10px 0;
 `;
 
-export const StyledLogo = styled.div`
-  #logo-text {
-    margin-left: 5px;
-  }
+export const NavLogo = styled.img`
+  margin-left: 5px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    #logo-text {
-      display: none;
-    }
+    display: none;
   }
 `;
 
@@ -45,20 +41,6 @@ export const Login = styled.div`
   justify-content: center;
   align-items: center;
 
-  .search {
-    margin-right: 15px;
-
-    p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    @media (max-width: ${({ theme }) => theme.mobile}) {
-      display: none;
-    }
-  }
-
   .login-btn {
     font-size: 1.1rem;
     font-weight: bold;
@@ -75,5 +57,19 @@ export const Login = styled.div`
       font-size: 0.8rem;
       padding: 10px;
     }
+  }
+`;
+
+export const Search = styled.div`
+  margin-right: 15px;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    display: none;
   }
 `;

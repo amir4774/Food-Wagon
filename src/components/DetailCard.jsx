@@ -6,7 +6,7 @@ import {
   Text,
   DetailTitle,
   DetailCaption,
-} from "../style/Details.styled";
+} from "../style/DetailCard.styled";
 
 const DetailCard = ({ id, src, title, yellow_title, description }) => {
   return (
